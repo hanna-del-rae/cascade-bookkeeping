@@ -1,0 +1,16 @@
+enable : true
+heading : About
+headingSpan : Us
+aboutItem : 
+- icon : tf-ion-paintbucket
+  title : We're Creative
+  content : We work with integrators and end-users to provide elegant, approachable interfaces for residences and organizations.
+
+
+- icon : tf-ion-briefcase
+  title : We're Professional
+  content : Adelyte is a leading developer of control software, offering consulting and programming services for residential and commercial projects.
+  
+- icon : tf-ion-ios-lightbulb
+  title : We're Genius
+  content : We provide the most scalable, efficient, and flexible software framework available for Crestron control systems.

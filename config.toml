@@ -1,0 +1,106 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "CASCADE BOOKKEEPING SOLUTIONS"
+theme = "meghna-hugo"
+summaryLength = 10
+
+[taxonomies]
+  author = "author"
+  category = "categories"
+  tag = "tags"
+
+# Menu
+[menu]
+    [[menu.nav]]
+    name = "About Us"
+    URL = "services"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Services"
+    URL = "about"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Pricing"
+    URL = "pricing"
+    weight = 4
+
+    [[menu.nav]]
+    name = "Contact"
+    URL = "contact-us"
+    weight = 5
+
+# Site params
+[params]
+home= "Home"
+logo = "/images/logo.png"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyC4pxjRX8BTyt5h5gPs2T5GnRlSwVL6PcM"
+# Meta data
+description = "Responsive Multipurpose Parallax HTML5 Template"
+author = "Hanna"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+custom_css = ["css/custom.css"]
+
+    # Banner Section
+    [params.banner]
+    enable = true
+    bgImage = "./images/slider/hero-area.jpg"
+    heading = "Cascade Bookkeeping Solutions"
+    content= "Helping small businesses focus on doing what they do best."
+    btn = true
+    btnText="Our Services"
+    btnURL="#about"
+
+    # call to action
+    [params.cta]
+    enable = true
+    title = "Get Started with Quickbooks!"
+    content = "From sending estimates & invoices, tracking miles & time, streamlining payroll, reconsiling transactions, and checking the health of your company, QuickBooks is the worlds leading financial solution provider. As Certified QuickBooks experts, we are ready to help you select the right products for your business, get your company setup, and teach you how to use incorperate it into your daily activities to make your business run smoothly. "
+    btnURL = "#"
+    btnText = "Get Started"
+
+    # counter
+    [params.counter]
+    enable = true
+    title = "Something"
+    bgImage = "images/backgrounds/bg-1.jpg"
+        [[params.counter.counterItem]]
+        title = "Happy Clients"
+        icon = "tf-ion-android-happy"
+        count = "78"
+
+        [[params.counter.counterItem]]
+        title = "Projects completed"
+        icon = "tf-ion-archive"
+        count = "565"
+
+        [[params.counter.counterItem]]
+        title = "Positive feedback"
+        icon = "tf-ion-thumbsup"
+        count = "100%"
+
+        [[params.counter.counterItem]]
+        title = "Cups of Coffee"
+        icon = "tf-ion-coffee"
+        count = "2184"
+
+     # footer
+    [params.footer]
+        copyright = "Timber Ridge Customs LLC"
+        copyrightURL = "#"
+
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-twitter"
+        url = "https://twitter.com/adelytecompany?lang=en"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-instagram"
+        url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-linkedin"
+        url = "#"

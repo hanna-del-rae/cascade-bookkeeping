@@ -1,0 +1,21 @@
+enable : true
+heading : Our 
+headingSpan : Services
+aboutItem :
+  - icon : tf-ion-cash
+    title : Payroll
+    content : We can help your with all your payroll needs, from entering time sheets all the way through remitting state and federal tax withholdings, and more.
+    btnURL : framework/framework
+    btnText : More Info
+    
+  - icon : tf-book-open
+    title : Bookkeeping
+    content : Bookkeeping can be a drain on your time and energy. Why not let us handle behind the scenes work so you can focus on whats important?
+    btnURL : cloud/cloud
+    btnText : More Info
+
+  - icon : tf-tools
+    title : Quickbooks Training
+    content : If you have questions before, during, or after installing QuickBooks, call us! Hanna is a Certified ProAdvisor.
+    btnURL : cloud/cloud
+    btnText : More Info

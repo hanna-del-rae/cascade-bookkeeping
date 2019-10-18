@@ -1,0 +1,21 @@
+enable : true
+heading : About 
+headingSpan : Us
+serviceItem :
+  - icon : tf-shield2
+    title : Secure
+    content : The security and privacy of your businesses financial information is our top concern
+    btnURL : framework/framework
+    btnText : More Info
+    
+  - icon : tf-ion-ios-checkmark-outline
+    title : Certified
+    content : We are certified experts in the industry's leading software, helping you find the right solution for your business
+    btnURL : cloud/cloud
+    btnText : More Info
+
+  - icon : tf-pricetags
+    title : Affordable
+    content : We provide the most scalable, cost-effective, and affordable solutions for local businesses
+    btnURL : cloud/cloud
+    btnText : More Info

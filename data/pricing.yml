@@ -1,0 +1,55 @@
+enable : true
+heading : Easy 
+headingSpan : Pricing
+pricingTable :
+  - title : Bronze
+    price : $299
+    time : month
+    plan :
+      - planDetails : Small Businesses (1-10 employees)
+      - planDetails : Invoicing
+      - planDetails : Entering Bills
+      - planDetails : Payment Processing
+      - planDetails : Bank Reconciliations
+      - planDetails : Month-End Reports (Balance Sheet and P&L)
+      - planDetails : Prepaid Monthly on the 1st
+      
+  - title : Silver
+    price : $399
+    time : month
+    plan :
+      - planDetails : Small Businesses (1-10 employees)
+      - planDetails : Payroll
+      - planDetails : Invoicing
+      - planDetails : Entering Bills
+      - planDetails : Payment Processing
+      - planDetails : Bank Reconciliations
+      - planDetails : Month-End Reports (Balance Sheet and P&L)
+      - planDetails : Prepaid Monthly on the 1st
+      
+  - title : Gold
+    price : $499
+    time : month
+    plan :
+      - planDetails : Mid-sized Businesses (11-20 employees)
+      - planDetails : Invoicing
+      - planDetails : Entering Bills
+      - planDetails : Payment Processing
+      - planDetails : Bank Reconciliations
+      - planDetails : Month-End Reports (Balance Sheet and P&L)
+      - planDetails : Prepaid Monthly on the 1st
+      
+    
+  - title : Platinum
+    price : $599
+    time : month
+    plan :
+      - planDetails : Small Businesses (1-10 employees)
+      - planDetails : Payroll
+      - planDetails : Invoicing
+      - planDetails : Entering Bills
+      - planDetails : Payment Processing
+      - planDetails : Bank Reconciliations
+      - planDetails : Month-End Reports (Balance Sheet and P&L)
+      - planDetails : Prepaid Monthly on the 1st
+    

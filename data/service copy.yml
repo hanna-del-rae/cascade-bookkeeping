@@ -1,0 +1,21 @@
+enable : true
+heading : Our
+headingSpan : Services
+serviceItem :
+  - icon : tf-tools
+    title : Payroll
+    content : We release project software under the LGPL and other work to the Public Domain. Anyone is free to modify and distribute our work.
+    btnURL : framework/framework
+    btnText : More Info
+    
+  - icon : tf-ion-cloud
+    title : Bookkeeping
+    content : We maintain all project resources using version control—SVN, Hg, or Git depending on the situation. We share everything with Dropbox.
+    btnURL : cloud/cloud
+    btnText : More Info
+
+  - icon : tf-tools
+    title : Quickbooks Training
+    content : We provide the most scalable, efficient, and flexible software framework available for Crestron control systems.
+    btnURL : cloud/cloud
+    btnText : More Info
