@@ -1,6 +1,2 @@
 # test-repo
-testing git
-
-Some title here as a test
----
-Another there. I'll add my site next. 
+ This readme is not a part of the hugo files. 
