@@ -236,7 +236,9 @@ a:hover {
 }
 
 .btn-main {
-  background: #57cbcc;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 3px;
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -244,11 +246,10 @@ a:hover {
   letter-spacing: 1px;
   border-radius: 3px;
   padding: 10px 35px;
-  text-transform: uppercase;
 }
 
 .btn-main:hover {
-  background: #2c9091;
+  background: #57cbcc;
   color: #fff;
 }
 
@@ -441,7 +442,7 @@ a:hover {
 
 .overly:before {
   content: '';
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.85);
   position: absolute;
   top: 0;
   right: 0;
@@ -523,7 +524,8 @@ a:hover {
 }
 
 .navigation .logo {
-  padding: 0;
+  padding: 0px ;
+  height: 38px;
 }
 
 .navigation .navigation-menu li a.active {
@@ -546,6 +548,13 @@ a:hover {
   border-color: rgba(255,255,255,.1);
   border-radius: 0;
 }
+
+
+a .navbar-brand .logo {
+  height: 50px !important;
+}
+
+
 
 .navigation .navbar-collapse {
   padding: 10px;
@@ -790,7 +799,7 @@ a:hover {
 
 .call-to-action p {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: bregular;
   color: #FFF;
 }
 
@@ -816,6 +825,7 @@ a:hover {
   color: #fff;
 }
 
+
 .call-to-action-2 .btn-main {
   margin-top: 20px;
 }
@@ -833,6 +843,10 @@ a:hover {
 
 .contact-form {
   margin-bottom: 60px;
+}
+
+.contact-us h3 {
+  color: white;
 }
 
 .form-meghna .form-control {
@@ -864,6 +878,8 @@ a:hover {
   border: 1px solid rgba(236, 239, 241, 0.07);
   background: #57cbcc;
   padding: 12px 0;
+  font-weight: bold;
+  font-size: 18px;
   width: 100%;
   margin: 0;
 }
@@ -1022,10 +1038,15 @@ a:hover {
   font-style: italic;
 }
 
-strong .question {
+.hood h2,
+.hood h3 {
+  color: #353b43 !important;
+}
+
+h5.question {
   color: #57CBCC !important;
-  margin-bottom: 10px;
-  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
 
@@ -1183,11 +1204,20 @@ strong .question {
   Services section
 ==================================================================*/
 .service-block {
+  background: #242930;
   padding: 60px 20px;
   border-left: 1px solid rgba(236, 239, 241, 0.07);
   border-top: 1px solid rgba(236, 239, 241, 0.07);
-  margin-bottom: 40px;
-  box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+}
+
+.service-block:hover {
+  border-bottom: 2px solid #57cbcc;
+}
+
+.service-block h3,
+.block h3 {
+  color: white;
 }
 
 .service-block .service-icon {
@@ -1639,6 +1669,11 @@ strong .question {
 .comment-wrap .media .media-heading a {
   color: #353b43;
   font-size: 13px;
+}
+
+.doforyou h4 {
+  color: #353b43 !important;
+  font-weight: bold !important;
 }
 
 

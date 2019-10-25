@@ -1,14 +1,20 @@
 enable : true 
 hoodItem : 
   - iconhood : tf-ion-ios-clock
-    titlehood : Save you time
+    titlehood : Save Time
     contenthood: With bookkeeping tasks off your plate, you can focus on growing your business, perfecting your craft, and making customers hapy.
   - iconhood : tf-ion-arrow-graph-up-right
     titlehood : Provide Insights
     contenthood : Keep your finger on pulse of your business with monthly reports. Know where your money is going, and understand your business better.
   - iconhood : tf-ion-ios-calculator
     titlehood : Peace of Mind
-    contenthood : Titles, menus, and lists use indirect text and can be changed without reloading graphics files, which dramatically decreases the time it takes to deploy end-user customizations.
+    contenthood : Our team  categorizes transactions and reconciles accounts to ensure thourough and accurate books.
   - iconhood : tf-ion-ios-checkmark
     titlehood : Alleviate Tax-time Stress
-    contenthood : The demo interfaces are examples of how users can interact with Crescendo. Advanced programmers can create their own interface logic to support any design concept while harnessing the power of the framework.
+    contenthood : We compile and deliver your up-to-date books to your tax accountant, making tax time a breeze.
+  - iconhood : tf-ion-compass
+    titlehood : Accurate Records
+    contenthood : We compile and deliver your up-to-date books to your tax accountant, making tax time a breeze.  
+  - iconhood : tf-ion-ios-checkmark
+    titlehood : Customized Setup
+    contenthood : We take care of it all, from setting up automation, connecting banks, and organizing your chart of accounts.

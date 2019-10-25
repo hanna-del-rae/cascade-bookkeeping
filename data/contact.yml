@@ -8,10 +8,10 @@ mapLatitude : 45.6257
 mapLongitude: -122.6761
 contactDetails :
   - icon : tf-map-pin
-    info : "Vancouver, Washington"
+    info : "Location: Vancouver, Washington"
     
   - icon : tf-ion-ios-telephone-outline
-    info : "Phone: 541-000-0000"
+    info : "Phone: 541-236-5157"
     
   - icon : tf-ion-ios-email-outline
     info : "Email: info@cascadebookkeeping.com"
