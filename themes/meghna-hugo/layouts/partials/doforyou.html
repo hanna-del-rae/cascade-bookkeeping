@@ -1,0 +1,28 @@
+{{ if .Site.Data.hood.enable}}
+{{"<!-- Start what can we do for you section -->" | safeHTML}}
+<section class="section doforyou">
+<div class="container hood">
+        <div class=" pricing-paragraph row">
+            <h2>What can our services do for your business?</h2>
+            <h3>You didn't get into business to do books. Thankfully- we did! Our services put you back in the driver's seat by allowing you to spend your time making money, not balancing your books.  </a></h3>
+         </div>   
+        <div class="row">
+          {{ range .Site.Data.hood.hoodItem }}
+        <div class="col-lg-6">
+                 
+        <div class="align-self-start mr-3">
+          {{with .iconhood}} <i class="{{ . }}" ></i> {{ end }}
+        </div>
+        <div class="media-body">
+          {{with .titlehood}} <h4 class="media-heading">{{ . }}</h4>{{ end }}
+          {{ with .contenthood}} <p>{{ . }}</p> {{ end }}
+        </div>
+                    
+         </div>
+        {{ end }}
+      </div>
+              
+    </div>
+    </section>
+    {{"<!-- /pricing -->" | safeHTML}}
+{{ end }}

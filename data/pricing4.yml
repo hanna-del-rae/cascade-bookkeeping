@@ -1,0 +1,15 @@
+
+
+enable : true
+heading : Hourly
+headingSpan : Plans
+pricingTable :
+  - title2 : Legacy Surcharge
+    price2 : $2,000
+    content: Prepaid and nonrefundable
+    btnURL : #
+    btnText : Choose legacy
+    plan2 :
+      - planDetails2 : Includes no services
+      - planDetails2 : Once per project
+ 

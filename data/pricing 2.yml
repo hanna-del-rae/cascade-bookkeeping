@@ -1,0 +1,32 @@
+enable : true
+heading : Our Greatest
+headingSpan : Plans
+pricingTable :
+  - title : Prepaid 20
+    price : $135
+    time : hour
+    btnURL : #
+    btnText : $2,700
+    plan :
+      - planDetails : 10% discount
+      - planDetails : Prepaid with no expiration
+      
+  - title : Prepaid 20
+    price : $120
+    time : hour
+    btnURL : #
+    btnText : $6,000
+    plan :
+      - planDetails : 20% discount
+      - planDetails : Prepaid with no expiration
+      
+  - title : Prepaid 100
+    price : $105
+    time : hour
+    btnURL : #
+    btnText : $10,500
+    plan :
+      - planDetails : 30% discount
+      - planDetails : Prepaid with no expiration
+    
+

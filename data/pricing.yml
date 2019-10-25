@@ -1,24 +1,12 @@
 enable : true
-heading : Easy 
+heading : Our Easy 
 headingSpan : Pricing
 pricingTable :
-  - title : Bronze
+  - title : Silver
     price : $299
     time : month
     plan :
-      - planDetails : Small Businesses (1-10 employees)
-      - planDetails : Invoicing
-      - planDetails : Entering Bills
-      - planDetails : Payment Processing
-      - planDetails : Bank Reconciliations
-      - planDetails : Month-End Reports (Balance Sheet and P&L)
-      - planDetails : Prepaid Monthly on the 1st
-      
-  - title : Silver
-    price : $399
-    time : month
-    plan :
-      - planDetails : Small Businesses (1-10 employees)
+      - planDetails : Up to $25,000 in monthly expenses
       - planDetails : Payroll
       - planDetails : Invoicing
       - planDetails : Entering Bills
@@ -28,23 +16,10 @@ pricingTable :
       - planDetails : Prepaid Monthly on the 1st
       
   - title : Gold
-    price : $499
+    price : $399
     time : month
     plan :
-      - planDetails : Mid-sized Businesses (11-20 employees)
-      - planDetails : Invoicing
-      - planDetails : Entering Bills
-      - planDetails : Payment Processing
-      - planDetails : Bank Reconciliations
-      - planDetails : Month-End Reports (Balance Sheet and P&L)
-      - planDetails : Prepaid Monthly on the 1st
-      
-    
-  - title : Platinum
-    price : $599
-    time : month
-    plan :
-      - planDetails : Small Businesses (1-10 employees)
+      - planDetails : $25,001 - $150,000 in monthly expenses
       - planDetails : Payroll
       - planDetails : Invoicing
       - planDetails : Entering Bills
@@ -52,4 +27,17 @@ pricingTable :
       - planDetails : Bank Reconciliations
       - planDetails : Month-End Reports (Balance Sheet and P&L)
       - planDetails : Prepaid Monthly on the 1st
-    
+      
+  - title : Platinum
+    price : $499
+    time : month
+    plan :
+      - planDetails : $150,001 or more in monthly expenses
+      - planDetails : Payroll
+      - planDetails : Invoicing
+      - planDetails : Entering Bills
+      - planDetails : Payment Processing
+      - planDetails : Bank Reconciliations
+      - planDetails : Month-End Reports (Balance Sheet and P&L)
+      - planDetails : Prepaid Monthly on the 1st
+        

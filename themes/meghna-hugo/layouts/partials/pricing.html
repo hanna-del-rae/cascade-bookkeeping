@@ -12,32 +12,47 @@
                 </div>
             </div>
             {{"<!-- /section title -->" | safeHTML}}
+        
 
-            {{ range .Site.Data.pricing.pricingTable }}
-            {{"<!-- single pricing table -->" | safeHTML}}
-            <div class="col-lg-3 col-md-6 col-12 text-center wow fadeInUp" data-wow-duration="200ms">
-                <div class="price-item">
-
-                    {{"<!-- plan name & value -->" | safeHTML}}
-                    <div class="price-title">
-                        <h3>{{ .title }}</h3>
-                        <h3> {{ .titleSpan }} </h3>
-                        <p><strong class="value">{{ .price }}</strong>/ {{ .time }}</p>
-                    </div>
-
-                    {{"<!-- plan description -->" | safeHTML}}
-                    <ul>
-                        {{ range .plan }}
-                        <li>{{ .planDetails }}</li>
-                        {{ end }}
-                    </ul>
-
-                </div>
+        {{ range .Site.Data.pricing.pricingTable }}
+        {{"<!-- single pricing table -->" | safeHTML}}
+        <div class="col-lg-4 col-md-4 col-12 text-center wow fadeInUp" data-wow-duration="200ms">
+          <div class="price-item flex-row">
+            {{"<!-- plan name & value -->" | safeHTML}}
+            <div class="price-title">
+                <h3>{{ .title }}</h3>
+                <p><strong class="value">{{ .price }}</strong>/ {{ .time }}</p>
+                <p>{{ .content}}</p>
             </div>
-            {{"<!-- end single pricing table -->" | safeHTML}}
-            {{ end }}
+            {{"<!-- plan description -->" | safeHTML}}
+            <ul>
+                {{ range .plan }}
+                <li>{{ .planDetails }}</li>
+                {{ end }}
+            </ul>
+          </div>
         </div>
+        {{"<!-- end single pricing table -->" | safeHTML}}
+        {{ end }}
+    
+        <div class="pricing-paragraph row hourly">
+          <h2 class="pricing-h2">Payments and Policies</h2>
+          <h3>It's never been easier to get started! We accept payments through Square and QuickBooks. It's safe, secure and convenient!</h3>
+          <h5><strong>Deposits</strong></h5>
+          <p>We require all work be paid in advance for the current month, since you will have instant access to our work as it is happening once your account is set up.  Because of this, we bill ahead of time for each month's work. We can accomodate flexible invoice due dates.</p>
+        </div>
+
+        <div class="pricing-paragraph">
+            <h2>FAQ's</h2>
+            <h5 class="question"><strong>As an integrator, I need margin on your services. Will you provide me with a discount so I can make a profit?</strong></h5>
+            <p>We offer the same discounts for prepaid allowances to integrators and end-users. As an integrator, you are much more likely to be able to use a large allowance than an end-user. There is a lot of margin in our <strong>Prepaid 100</strong> allowance.</p>
+            <h5 class="question"><strong>How do you handle past-due invoices?</strong></h5>
+            <p>We do not release the source code until the project balance is paid.</p>
+            <h5 class="question"><strong>Have you ever taken legal action against an integrator or end-user?</strong></h5>
+            <p>During our ten years in business, we have never sued a client, nor have we been sued by a client.</p>
+        </div>            
     </div>
+</div>
 </section>
 {{"<!-- /pricing -->" | safeHTML}}
 {{ end }}
