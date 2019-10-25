@@ -1,20 +1,20 @@
 enable : true 
 hoodItem : 
-  - iconhood : tf-ion-ios-clock
+  - iconhood : tf-clock
     titlehood : Save Time
     contenthood: With bookkeeping tasks off your plate, you can focus on growing your business, perfecting your craft, and making customers hapy.
-  - iconhood : tf-ion-arrow-graph-up-right
+  - iconhood : tf-piechart
     titlehood : Provide Insights
     contenthood : Keep your finger on pulse of your business with monthly reports. Know where your money is going, and understand your business better.
-  - iconhood : tf-ion-ios-calculator
+  - iconhood : tf-ion-ios-calculator-outline
     titlehood : Peace of Mind
     contenthood : Our team  categorizes transactions and reconciles accounts to ensure thourough and accurate books.
-  - iconhood : tf-ion-ios-checkmark
+  - iconhood : tf-ion-ios-checkmark-outline
     titlehood : Alleviate Tax-time Stress
     contenthood : We compile and deliver your up-to-date books to your tax accountant, making tax time a breeze.
-  - iconhood : tf-ion-compass
+  - iconhood : tf-target3
     titlehood : Accurate Records
     contenthood : We compile and deliver your up-to-date books to your tax accountant, making tax time a breeze.  
-  - iconhood : tf-ion-ios-checkmark
+  - iconhood : tf-ion-ios-gear-outline
     titlehood : Customized Setup
     contenthood : We take care of it all, from setting up automation, connecting banks, and organizing your chart of accounts.
