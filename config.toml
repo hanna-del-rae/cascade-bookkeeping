@@ -38,7 +38,7 @@ home= "Home"
 logo = "/images/logo.svg"
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyC4pxjRX8BTyt5h5gPs2T5GnRlSwVL6PcM"
 # Meta data
-description = "Responsive Multipurpose Parallax HTML5 Template"
+description = "Helping small businesses focus on doing what they do best."
 author = "Hanna"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
