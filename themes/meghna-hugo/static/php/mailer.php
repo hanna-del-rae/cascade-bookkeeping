@@ -37,10 +37,10 @@ require 'phpmailer/SMTP.php';
     //Use a fixed address in your own domain as the from address
     //**DO NOT** use the submitter's address here as it will be forgery
     //and will cause your messages to fail SPF checks
-    $mail->setFrom('sender@server.net', 'Your Name');
+    $mail->setFrom('info@cascadebookkeeping.com', 'Hanna Wendt');
     //Send the message to yourself, or whoever should receive contact for submissions
 
-    $mail->addAddress('testsendmail@greenant.net', 'Your Name');
+    $mail->addAddress('Info@cascadebookkeeping.com', 'Hanna Wendt');
     //Put the submitter's address in a reply-to header
     //This will fail if the address provided is invalid,
     //in which case we should ignore the whole request
