@@ -1,7 +1,7 @@
-baseURL = "https://cascadebookkeeping.com/"
+baseURL = "https://cascadebookkeeping.com"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "CASCADE BOOKKEEPING SOLUTIONS"
+title = "Cascade Bookkeeping Solutions"
 theme = "meghna-hugo"
 summaryLength = 10
 

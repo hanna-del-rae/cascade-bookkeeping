@@ -2,7 +2,7 @@ enable : true
 hoodItem : 
   - iconhood : tf-clock
     titlehood : Save Time
-    contenthood: With bookkeeping tasks off your plate, you can focus on growing your business, perfecting your craft, and making customers hapy.
+    contenthood: With bookkeeping tasks off your plate, you can focus on growing your business, perfecting your craft, and making customers happy.
   - iconhood : tf-piechart
     titlehood : Provide Insights
     contenthood : Keep your finger on pulse of your business with monthly reports. Know where your money is going, and understand your business better.
@@ -14,7 +14,7 @@ hoodItem :
     contenthood : We compile and deliver your up-to-date books to your tax accountant, making tax time a breeze.
   - iconhood : tf-target3
     titlehood : Accurate Records
-    contenthood : We compile and deliver your up-to-date books to your tax accountant, making tax time a breeze.  
+    contenthood: Some things are worth having done right-- your books are one of them! Have peace of mind knowing you have QuickBooks experts on the job.    
   - iconhood : tf-ion-ios-gear-outline
     titlehood : Customized Setup
     contenthood : We take care of it all, from setting up automation, connecting banks, and organizing your chart of accounts.
